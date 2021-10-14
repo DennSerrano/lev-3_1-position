@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* font-family: 'Monoton', cursive;
+font-family: 'Ubuntu', sans-serif; */
+/* Nutze die Farben #070707, #9d9f9f, #f4f7f8 und #AC8059 */
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif; 
+    color:#9d9f9f;
+}
+i{
+    font-size:30px;
+}
+body{
+    background-color:#070707;
+}
+/*====================
+Header
+====================== */
+header{
+border-bottom: 2px solid #9d9f9f;
+}
+header p:nth-of-type(1){
+position: absolute;
+left:2%;
+top:1%;
+}
+header p:nth-of-type(2){
+letter-spacing: 2px;
+position: absolute;
+left:15%;
+top:2%;
+}
+header ul:nth-of-type(1){
+    position: absolute;
+    top:2%;
+    left:50%;
+}
+header ul:nth-of-type(1) li{
+margin-left:50px;
+}
+header ul:nth-of-type(2){
+    position: relative;
+    left:90%;
+}
+ul li{
+    display: inline-block;
+}
+/*====================
+Main
+====================== */
+h1{
+    font-size: 50px;
+    color:#f4f7f8 ;
+}
+
+main section div span{
+    color:#AC8059 ;
+    letter-spacing: -2px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+main section div{
+    color:#AC8059 ;
+    letter-spacing: -2px;
+    font-size: 15px;
+}
+main img{
+    display: block;
+    width:100%;
+    height: 80vh;
+    object-fit: cover;
+}
+main{
+    position: relative;
+    height:100vh;
+}
+main section{
+    position: absolute;
+   bottom: 400px;
+   left: 100px;
+}
+main article:nth-of-type(1){
+    width: 200px;
+    position: absolute;
+    right:500px;
+    margin-top:50px;
+}
+main article:nth-of-type(2){
+    width: 200px;
+    position: absolute;
+    right:250px;
+    margin-top:50px;
+}
+main article:nth-of-type(3){
+    width: 200px;
+    position: absolute;
+    right:0;
+    margin-top:50px;
+}
+main article p{
+   display:inline-block;
+}
+    /*====================
+footer
+
+====================== */
+footer{
+height:100px;
+    position: relative;
+    
+}
+footer nav ul{
+    letter-spacing:40px;
+    position: absolute;
+}
+
+footer div ul{
+    letter-spacing:30px;
+    position: absolute;
+    right: 60px;
+}
+
